@@ -1,0 +1,27 @@
+[project]
+name = "slm-work"
+version = "0.1.0"
+description = "Fine-tuning QLoRA de quatro modelos de linguagem pequenos no dataset C2 do PictoInstruct"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "accelerate>=1.10",
+  "bitsandbytes>=0.47",
+  "datasets>=4.0",
+  "emoji>=2.14",
+  "flash-linear-attention>=0.6.0",
+  "ftfy>=6.3.1",
+  "numpy>=2.1",
+  "orjson>=3.10",
+  "peft>=0.19",
+  "pillow>=11.0",
+  "protobuf>=5.29",
+  "pyyaml>=6.0",
+  "regex>=2024.11.6",
+  "scipy>=1.14",
+  "sentence-transformers>=3.3",
+  "sentencepiece>=0.2",
+  "torch>=2.8",
+  "torchvision>=0.23",
+  "transformers>=5.18",
+  "trl>=0.25",
+]

@@ -1,0 +1,354 @@
+{
+  "model": "s5-nano",
+  "model_id": "maritaca-ai/S5-nano",
+  "test_concepts": 2199,
+  "parseable": {
+    "base": 804,
+    "adapted": 2193
+  },
+  "semantic_complete_cases": 802,
+  "token_weighted_nll": {
+    "base": 1.503583993326884,
+    "adapted": 0.6904444433566456
+  },
+  "token_weighted_perplexity": {
+    "base": 4.497780232143336,
+    "adapted": 1.9946018238052605
+  },
+  "structural_validity_mcnemar": {
+    "left_only": 2,
+    "right_only": 1391,
+    "p_value": 0.0
+  },
+  "comparisons": {
+    "structural_validity": {
+      "n_paired": 2199,
+      "base_mean": 0.3656207366984993,
+      "adapted_mean": 0.9972714870395635,
+      "adapted_minus_base": 0.6316507503410641,
+      "ci95_lower": 0.6111869031377899,
+      "ci95_upper": 0.6516598453842656,
+      "synset_block_ci95": [
+        0.603543946439289,
+        0.6597518648833365
+      ],
+      "n_blocks": 1383,
+      "higher_is_better": true
+    },
+    "reference_nll": {
+      "n_paired": 2199,
+      "base_mean": 1.5065906776683664,
+      "adapted_mean": 0.6886197511731846,
+      "adapted_minus_base": -0.8179709264951817,
+      "ci95_lower": -0.8263040092958814,
+      "ci95_upper": -0.8097855604834356,
+      "synset_block_ci95": [
+        -0.8281234294039912,
+        -0.8078304529670978
+      ],
+      "n_blocks": 1383,
+      "higher_is_better": false
+    },
+    "latency_seconds": {
+      "n_paired": 2199,
+      "base_mean": 1.755170698613134,
+      "adapted_mean": 4.443272193264299,
+      "adapted_minus_base": 2.6881014946511654,
+      "ci95_lower": 2.654245605217304,
+      "ci95_upper": 2.723162145468847,
+      "synset_block_ci95": [
+        2.644009241551022,
+        2.7338443467405176
+      ],
+      "n_blocks": 1383,
+      "higher_is_better": false
+    },
+    "generated_tokens": {
+      "n_paired": 2199,
+      "base_mean": 76.92451114142793,
+      "adapted_mean": 110.83219645293315,
+      "adapted_minus_base": 33.90768531150523,
+      "ci95_lower": 32.929490677580716,
+      "ci95_upper": 34.89819236016371,
+      "synset_block_ci95": [
+        32.71963931181531,
+        35.12390546107121
+      ],
+      "n_blocks": 1383,
+      "higher_is_better": false
+    },
+    "concept_similarity": {
+      "n_paired": 802,
+      "base_mean": 0.4714038286420826,
+      "adapted_mean": 0.5262843410013025,
+      "adapted_minus_base": 0.054880512359219966,
+      "ci95_lower": 0.04577296121534252,
+      "ci95_upper": 0.06415789009770378,
+      "synset_block_ci95": [
+        0.035692963422762077,
+        0.07634391586602587
+      ],
+      "n_blocks": 546,
+      "higher_is_better": true
+    },
+    "semantic_nonredundancy": {
+      "n_paired": 802,
+      "base_mean": 0.2642964369563985,
+      "adapted_mean": 0.23325073055718604,
+      "adapted_minus_base": -0.031045706399212454,
+      "ci95_lower": -0.03969270427133006,
+      "ci95_upper": -0.022661443289248573,
+      "synset_block_ci95": [
+        -0.04251854322639649,
+        -0.019567902494059746
+      ],
+      "n_blocks": 546,
+      "higher_is_better": true
+    },
+    "vendi_score_at_5": {
+      "n_paired": 802,
+      "base_mean": 2.91340534637991,
+      "adapted_mean": 2.7065495563266877,
+      "adapted_minus_base": -0.20685579005322255,
+      "ci95_lower": -0.2478423595539947,
+      "ci95_upper": -0.16716424673981506,
+      "synset_block_ci95": [
+        -0.2628621069053875,
+        -0.15141037662161855
+      ],
+      "n_blocks": 546,
+      "higher_is_better": true
+    },
+    "reference_semantic_alignment": {
+      "n_paired": 802,
+      "base_mean": 0.5235487911525064,
+      "adapted_mean": 0.6423731181965653,
+      "adapted_minus_base": 0.11882432704405892,
+      "ci95_lower": 0.11064623445922746,
+      "ci95_upper": 0.12714305762433797,
+      "synset_block_ci95": [
+        0.10055278102035556,
+        0.13962029161008255
+      ],
+      "n_blocks": 546,
+      "higher_is_better": true
+    },
+    "emoji_reference_overlap_diagnostic": {
+      "n_paired": 802,
+      "base_mean": 0.2685785536159601,
+      "adapted_mean": 0.355860349127182,
+      "adapted_minus_base": 0.08728179551122195,
+      "ci95_lower": 0.0658354114713217,
+      "ci95_upper": 0.10922693266832917,
+      "synset_block_ci95": [
+        0.05771225450081833,
+        0.11747978815218227
+      ],
+      "n_blocks": 546,
+      "higher_is_better": true
+    }
+  },
+  "encoder_comparisons": {
+    "serafim": {
+      "concept_similarity": {
+        "n_paired": 802,
+        "base_mean": 0.5329243291791835,
+        "adapted_mean": 0.5835979357919193,
+        "adapted_minus_base": 0.05067360661273585,
+        "ci95_lower": 0.040539333764045615,
+        "ci95_upper": 0.06115152694405686,
+        "synset_block_ci95": [
+          0.029644439041764545,
+          0.07415432862485753
+        ],
+        "n_blocks": 546,
+        "higher_is_better": true
+      },
+      "semantic_nonredundancy": {
+        "n_paired": 802,
+        "base_mean": 0.2727831391027741,
+        "adapted_mean": 0.2475743605534632,
+        "adapted_minus_base": -0.02520877854931087,
+        "ci95_lower": -0.034984073462777605,
+        "ci95_upper": -0.015808160705236426,
+        "synset_block_ci95": [
+          -0.03755980109276034,
+          -0.012887506914069306
+        ],
+        "n_blocks": 546,
+        "higher_is_better": true
+      },
+      "vendi_score_at_5": {
+        "n_paired": 802,
+        "base_mean": 2.983274182922525,
+        "adapted_mean": 2.801686930091601,
+        "adapted_minus_base": -0.18158725283092395,
+        "ci95_lower": -0.22672744274808285,
+        "ci95_upper": -0.13797400348501612,
+        "synset_block_ci95": [
+          -0.2447995103443716,
+          -0.12088827416904624
+        ],
+        "n_blocks": 546,
+        "higher_is_better": true
+      },
+      "reference_semantic_alignment": {
+        "n_paired": 802,
+        "base_mean": 0.5264462360977532,
+        "adapted_mean": 0.6334238606981208,
+        "adapted_minus_base": 0.10697762460036765,
+        "ci95_lower": 0.09775936685623299,
+        "ci95_upper": 0.1163776159848544,
+        "synset_block_ci95": [
+          0.08556509021210393,
+          0.13129143312878894
+        ],
+        "n_blocks": 546,
+        "higher_is_better": true
+      },
+      "emoji_reference_overlap_diagnostic": {
+        "n_paired": 802,
+        "base_mean": 0.2685785536159601,
+        "adapted_mean": 0.355860349127182,
+        "adapted_minus_base": 0.08728179551122195,
+        "ci95_lower": 0.0658354114713217,
+        "ci95_upper": 0.10922693266832917,
+        "synset_block_ci95": [
+          0.05771225450081833,
+          0.11747978815218227
+        ],
+        "n_blocks": 546,
+        "higher_is_better": true
+      }
+    },
+    "labse": {
+      "concept_similarity": {
+        "n_paired": 802,
+        "base_mean": 0.4098833281049816,
+        "adapted_mean": 0.4689707462106857,
+        "adapted_minus_base": 0.05908741810570408,
+        "ci95_lower": 0.05014846088861735,
+        "ci95_upper": 0.06817069305826971,
+        "synset_block_ci95": [
+          0.041328437607150936,
+          0.07914789079272781
+        ],
+        "n_blocks": 546,
+        "higher_is_better": true
+      },
+      "semantic_nonredundancy": {
+        "n_paired": 802,
+        "base_mean": 0.25580973481002295,
+        "adapted_mean": 0.2189271005609089,
+        "adapted_minus_base": -0.03688263424911404,
+        "ci95_lower": -0.0462884159094452,
+        "ci95_upper": -0.027899742700586892,
+        "synset_block_ci95": [
+          -0.049229653072157716,
+          -0.02463231081175842
+        ],
+        "n_blocks": 546,
+        "higher_is_better": true
+      },
+      "vendi_score_at_5": {
+        "n_paired": 802,
+        "base_mean": 2.843536509837296,
+        "adapted_mean": 2.6114121825617747,
+        "adapted_minus_base": -0.23212432727552115,
+        "ci95_lower": -0.27517113676689514,
+        "ci95_upper": -0.19036689564176926,
+        "synset_block_ci95": [
+          -0.2932661830881037,
+          -0.17054432390651264
+        ],
+        "n_blocks": 546,
+        "higher_is_better": true
+      },
+      "reference_semantic_alignment": {
+        "n_paired": 802,
+        "base_mean": 0.5206513462072596,
+        "adapted_mean": 0.6513223756950097,
+        "adapted_minus_base": 0.13067102948775017,
+        "ci95_lower": 0.12288553703697096,
+        "ci95_upper": 0.13855811717764396,
+        "synset_block_ci95": [
+          0.11503054548034135,
+          0.14855965505225227
+        ],
+        "n_blocks": 546,
+        "higher_is_better": true
+      },
+      "emoji_reference_overlap_diagnostic": {
+        "n_paired": 802,
+        "base_mean": 0.2685785536159601,
+        "adapted_mean": 0.355860349127182,
+        "adapted_minus_base": 0.08728179551122195,
+        "ci95_lower": 0.0658354114713217,
+        "ci95_upper": 0.10922693266832917,
+        "synset_block_ci95": [
+          0.05771225450081833,
+          0.11747978815218227
+        ],
+        "n_blocks": 546,
+        "higher_is_better": true
+      }
+    }
+  },
+  "valid_output_means": {
+    "concept_similarity": {
+      "base": {
+        "mean": 0.4712787561746435,
+        "n": 804
+      },
+      "adapted": {
+        "mean": 0.5372594149330545,
+        "n": 2193
+      }
+    },
+    "semantic_nonredundancy": {
+      "base": {
+        "mean": 0.26466009817758007,
+        "n": 804
+      },
+      "adapted": {
+        "mean": 0.23810993353770413,
+        "n": 2193
+      }
+    },
+    "vendi_score_at_5": {
+      "base": {
+        "mean": 2.9150683392784487,
+        "n": 804
+      },
+      "adapted": {
+        "mean": 2.728436141404397,
+        "n": 2193
+      }
+    },
+    "reference_semantic_alignment": {
+      "base": {
+        "mean": 0.5235622856506512,
+        "n": 804
+      },
+      "adapted": {
+        "mean": 0.6444684958252741,
+        "n": 2193
+      }
+    },
+    "emoji_reference_overlap_diagnostic": {
+      "base": {
+        "mean": 0.2681592039800995,
+        "n": 804
+      },
+      "adapted": {
+        "mean": 0.3443684450524396,
+        "n": 2193
+      }
+    }
+  },
+  "encoders": {
+    "serafim": "PORTULAN/serafim-335m-portuguese-pt-sentence-encoder",
+    "labse": "sentence-transformers/LaBSE"
+  },
+  "note": "Métricas de embedding são diagnósticos offline, não julgamento profissional de CAA."
+}

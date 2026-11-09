@@ -1,0 +1,414 @@
+[
+  {
+    "model": "s5-nano",
+    "name": "S5-nano (Maritaca)",
+    "parse_rate_base": 0.3656207366984993,
+    "parseable_base": 804,
+    "perplexity_base": 4.497780232143336,
+    "reference_nll_base": 1.5065906776683664,
+    "latency_seconds_base": 1.755170698613134,
+    "generated_tokens_base": 76.92451114142793,
+    "concept_similarity_base": 0.4714038286420826,
+    "semantic_nonredundancy_base": 0.2642964369563985,
+    "vendi_score_at_5_base": 2.91340534637991,
+    "reference_semantic_alignment_base": 0.5235487911525064,
+    "emoji_reference_overlap_diagnostic_base": 0.2685785536159601,
+    "parse_rate_adapted": 0.9972714870395635,
+    "parseable_adapted": 2193,
+    "perplexity_adapted": 1.9946018238052605,
+    "reference_nll_adapted": 0.6886197511731846,
+    "latency_seconds_adapted": 4.443272193264299,
+    "generated_tokens_adapted": 110.83219645293315,
+    "concept_similarity_adapted": 0.5262843410013025,
+    "semantic_nonredundancy_adapted": 0.23325073055718604,
+    "vendi_score_at_5_adapted": 2.7065495563266877,
+    "reference_semantic_alignment_adapted": 0.6423731181965653,
+    "emoji_reference_overlap_diagnostic_adapted": 0.355860349127182,
+    "structural_validity_delta": 0.6316507503410641,
+    "structural_validity_ci95": [
+      0.6111869031377899,
+      0.6516598453842656
+    ],
+    "structural_validity_n": 2199,
+    "reference_nll_delta": -0.8179709264951817,
+    "reference_nll_ci95": [
+      -0.8263040092958814,
+      -0.8097855604834356
+    ],
+    "reference_nll_n": 2199,
+    "latency_seconds_delta": 2.6881014946511654,
+    "latency_seconds_ci95": [
+      2.654245605217304,
+      2.723162145468847
+    ],
+    "latency_seconds_n": 2199,
+    "generated_tokens_delta": 33.90768531150523,
+    "generated_tokens_ci95": [
+      32.929490677580716,
+      34.89819236016371
+    ],
+    "generated_tokens_n": 2199,
+    "concept_similarity_delta": 0.054880512359219966,
+    "concept_similarity_ci95": [
+      0.04577296121534252,
+      0.06415789009770378
+    ],
+    "concept_similarity_n": 802,
+    "semantic_nonredundancy_delta": -0.031045706399212454,
+    "semantic_nonredundancy_ci95": [
+      -0.03969270427133006,
+      -0.022661443289248573
+    ],
+    "semantic_nonredundancy_n": 802,
+    "vendi_score_at_5_delta": -0.20685579005322255,
+    "vendi_score_at_5_ci95": [
+      -0.2478423595539947,
+      -0.16716424673981506
+    ],
+    "vendi_score_at_5_n": 802,
+    "reference_semantic_alignment_delta": 0.11882432704405892,
+    "reference_semantic_alignment_ci95": [
+      0.11064623445922746,
+      0.12714305762433797
+    ],
+    "reference_semantic_alignment_n": 802,
+    "emoji_reference_overlap_diagnostic_delta": 0.08728179551122195,
+    "emoji_reference_overlap_diagnostic_ci95": [
+      0.0658354114713217,
+      0.10922693266832917
+    ],
+    "emoji_reference_overlap_diagnostic_n": 802,
+    "concept_similarity_valid_base": 0.4712787561746435,
+    "concept_similarity_valid_n_base": 804,
+    "concept_similarity_valid_adapted": 0.5372594149330545,
+    "concept_similarity_valid_n_adapted": 2193,
+    "semantic_nonredundancy_valid_base": 0.26466009817758007,
+    "semantic_nonredundancy_valid_n_base": 804,
+    "semantic_nonredundancy_valid_adapted": 0.23810993353770413,
+    "semantic_nonredundancy_valid_n_adapted": 2193,
+    "vendi_score_at_5_valid_base": 2.9150683392784487,
+    "vendi_score_at_5_valid_n_base": 804,
+    "vendi_score_at_5_valid_adapted": 2.728436141404397,
+    "vendi_score_at_5_valid_n_adapted": 2193,
+    "reference_semantic_alignment_valid_base": 0.5235622856506512,
+    "reference_semantic_alignment_valid_n_base": 804,
+    "reference_semantic_alignment_valid_adapted": 0.6444684958252741,
+    "reference_semantic_alignment_valid_n_adapted": 2193,
+    "emoji_reference_overlap_diagnostic_valid_base": 0.2681592039800995,
+    "emoji_reference_overlap_diagnostic_valid_n_base": 804,
+    "emoji_reference_overlap_diagnostic_valid_adapted": 0.3443684450524396,
+    "emoji_reference_overlap_diagnostic_valid_n_adapted": 2193,
+    "mcnemar_p": 0.0,
+    "semantic_complete_cases": 802,
+    "test_concepts": 2199
+  },
+  {
+    "model": "gemma4-e2b",
+    "name": "Gemma 4 E2B",
+    "parse_rate_base": 0.7826284674852205,
+    "parseable_base": 1721,
+    "perplexity_base": 11.37177415343585,
+    "reference_nll_base": 2.4320838721354696,
+    "latency_seconds_base": 1.7976486008749921,
+    "generated_tokens_base": 72.97635288767621,
+    "concept_similarity_base": 0.5004753173364234,
+    "semantic_nonredundancy_base": 0.1876266549610188,
+    "vendi_score_at_5_base": 2.4794296636525814,
+    "reference_semantic_alignment_base": 0.5197548838554944,
+    "emoji_reference_overlap_diagnostic_base": 0.27335276967930033,
+    "parse_rate_adapted": 0.9968167348794906,
+    "parseable_adapted": 2192,
+    "perplexity_adapted": 2.211605562839302,
+    "reference_nll_adapted": 0.7896124281602428,
+    "latency_seconds_adapted": 4.818053202260529,
+    "generated_tokens_adapted": 105.84038199181447,
+    "concept_similarity_adapted": 0.5415719388177721,
+    "semantic_nonredundancy_adapted": 0.20980849156574327,
+    "vendi_score_at_5_adapted": 2.61009119655231,
+    "reference_semantic_alignment_adapted": 0.6289493847692673,
+    "emoji_reference_overlap_diagnostic_adapted": 0.3488046647230321,
+    "structural_validity_delta": 0.21418826739427013,
+    "structural_validity_ci95": [
+      0.197362437471578,
+      0.23148021828103668
+    ],
+    "structural_validity_n": 2199,
+    "reference_nll_delta": -1.6424714439752266,
+    "reference_nll_ci95": [
+      -1.657718841840986,
+      -1.627184637479413
+    ],
+    "reference_nll_n": 2199,
+    "latency_seconds_delta": 3.0204046013855375,
+    "latency_seconds_ci95": [
+      2.976802484657926,
+      3.06592143028159
+    ],
+    "latency_seconds_n": 2199,
+    "generated_tokens_delta": 32.86402910413825,
+    "generated_tokens_ci95": [
+      31.670236471123236,
+      34.06732605729877
+    ],
+    "generated_tokens_n": 2199,
+    "concept_similarity_delta": 0.04109662148134875,
+    "concept_similarity_ci95": [
+      0.03511778463449318,
+      0.04720717403747184
+    ],
+    "concept_similarity_n": 1715,
+    "semantic_nonredundancy_delta": 0.022181836604724472,
+    "semantic_nonredundancy_ci95": [
+      0.015401684485006612,
+      0.028805206213200752
+    ],
+    "semantic_nonredundancy_n": 1715,
+    "vendi_score_at_5_delta": 0.13066153289972868,
+    "vendi_score_at_5_ci95": [
+      0.09523295793780086,
+      0.16585971930197305
+    ],
+    "vendi_score_at_5_n": 1715,
+    "reference_semantic_alignment_delta": 0.10919450091377292,
+    "reference_semantic_alignment_ci95": [
+      0.10431216180509191,
+      0.1141355018769513
+    ],
+    "reference_semantic_alignment_n": 1715,
+    "emoji_reference_overlap_diagnostic_delta": 0.07545189504373179,
+    "emoji_reference_overlap_diagnostic_ci95": [
+      0.06040816326530612,
+      0.09072886297376094
+    ],
+    "emoji_reference_overlap_diagnostic_n": 1715,
+    "concept_similarity_valid_base": 0.5001576309693563,
+    "concept_similarity_valid_n_base": 1721,
+    "concept_similarity_valid_adapted": 0.5444558960416211,
+    "concept_similarity_valid_n_adapted": 2192,
+    "semantic_nonredundancy_valid_base": 0.18782917959512768,
+    "semantic_nonredundancy_valid_n_base": 1721,
+    "semantic_nonredundancy_valid_adapted": 0.2105959422519281,
+    "semantic_nonredundancy_valid_n_adapted": 2192,
+    "vendi_score_at_5_valid_base": 2.4804689681578487,
+    "vendi_score_at_5_valid_n_base": 1721,
+    "vendi_score_at_5_valid_adapted": 2.6112994241399052,
+    "vendi_score_at_5_valid_n_adapted": 2192,
+    "reference_semantic_alignment_valid_base": 0.5195834444427754,
+    "reference_semantic_alignment_valid_n_base": 1721,
+    "reference_semantic_alignment_valid_adapted": 0.6294684748056542,
+    "reference_semantic_alignment_valid_n_adapted": 2192,
+    "emoji_reference_overlap_diagnostic_valid_base": 0.27239976757699014,
+    "emoji_reference_overlap_diagnostic_valid_n_base": 1721,
+    "emoji_reference_overlap_diagnostic_valid_adapted": 0.34051094890510947,
+    "emoji_reference_overlap_diagnostic_valid_n_adapted": 2192,
+    "mcnemar_p": 1.3862054991424503e-132,
+    "semantic_complete_cases": 1715,
+    "test_concepts": 2199
+  },
+  {
+    "model": "minicpm-v4.7-1b",
+    "name": "MiniCPM-V 4.7 1B",
+    "parse_rate_base": 0.00045475216007276033,
+    "parseable_base": 1,
+    "perplexity_base": 19.151228277668547,
+    "reference_nll_base": 2.960665128349228,
+    "latency_seconds_base": 0.8420006344251972,
+    "generated_tokens_base": 54.4256480218281,
+    "concept_similarity_base": 0.4792137145996094,
+    "semantic_nonredundancy_base": 0.0,
+    "vendi_score_at_5_base": 1.0,
+    "reference_semantic_alignment_base": 0.26953910291194916,
+    "emoji_reference_overlap_diagnostic_base": 0.0,
+    "parse_rate_adapted": 0.992269213278763,
+    "parseable_adapted": 2182,
+    "perplexity_adapted": 4.016298538788956,
+    "reference_nll_adapted": 1.3818790410637258,
+    "latency_seconds_adapted": 3.3691740325925856,
+    "generated_tokens_adapted": 113.8681218735789,
+    "concept_similarity_adapted": 0.5362001955509186,
+    "semantic_nonredundancy_adapted": 0.34113678336143494,
+    "vendi_score_at_5_adapted": 3.403420329093933,
+    "reference_semantic_alignment_adapted": 0.452277272939682,
+    "emoji_reference_overlap_diagnostic_adapted": 0.0,
+    "structural_validity_delta": 0.9918144611186903,
+    "structural_validity_ci95": [
+      0.9877216916780355,
+      0.9954524783992724
+    ],
+    "structural_validity_n": 2199,
+    "reference_nll_delta": -1.578786087285502,
+    "reference_nll_ci95": [
+      -1.5929220190176019,
+      -1.5650075079436976
+    ],
+    "reference_nll_n": 2199,
+    "latency_seconds_delta": 2.5271733981673883,
+    "latency_seconds_ci95": [
+      2.486410194507753,
+      2.5720301415558797
+    ],
+    "latency_seconds_n": 2199,
+    "generated_tokens_delta": 59.4424738517508,
+    "generated_tokens_ci95": [
+      57.99406548431105,
+      60.99092769440655
+    ],
+    "generated_tokens_n": 2199,
+    "concept_similarity_delta": 0.056986480951309204,
+    "concept_similarity_ci95": [
+      0.056986480951309204,
+      0.056986480951309204
+    ],
+    "concept_similarity_n": 1,
+    "semantic_nonredundancy_delta": 0.34113678336143494,
+    "semantic_nonredundancy_ci95": [
+      0.34113678336143494,
+      0.34113678336143494
+    ],
+    "semantic_nonredundancy_n": 1,
+    "vendi_score_at_5_delta": 2.403420329093933,
+    "vendi_score_at_5_ci95": [
+      2.403420329093933,
+      2.403420329093933
+    ],
+    "vendi_score_at_5_n": 1,
+    "reference_semantic_alignment_delta": 0.18273817002773285,
+    "reference_semantic_alignment_ci95": [
+      0.18273817002773285,
+      0.18273817002773285
+    ],
+    "reference_semantic_alignment_n": 1,
+    "emoji_reference_overlap_diagnostic_delta": 0.0,
+    "emoji_reference_overlap_diagnostic_ci95": [
+      0.0,
+      0.0
+    ],
+    "emoji_reference_overlap_diagnostic_n": 1,
+    "concept_similarity_valid_base": 0.4792137145996094,
+    "concept_similarity_valid_n_base": 1,
+    "concept_similarity_valid_adapted": 0.5472941102560757,
+    "concept_similarity_valid_n_adapted": 2182,
+    "semantic_nonredundancy_valid_base": 0.0,
+    "semantic_nonredundancy_valid_n_base": 1,
+    "semantic_nonredundancy_valid_adapted": 0.09873294761348055,
+    "semantic_nonredundancy_valid_n_adapted": 2182,
+    "vendi_score_at_5_valid_base": 1.0,
+    "vendi_score_at_5_valid_n_base": 1,
+    "vendi_score_at_5_valid_adapted": 2.1111622396737038,
+    "vendi_score_at_5_valid_n_adapted": 2182,
+    "reference_semantic_alignment_valid_base": 0.26953910291194916,
+    "reference_semantic_alignment_valid_n_base": 1,
+    "reference_semantic_alignment_valid_adapted": 0.5707046638672282,
+    "reference_semantic_alignment_valid_n_adapted": 2182,
+    "emoji_reference_overlap_diagnostic_valid_base": 0.0,
+    "emoji_reference_overlap_diagnostic_valid_n_base": 1,
+    "emoji_reference_overlap_diagnostic_valid_adapted": 0.22786434463794683,
+    "emoji_reference_overlap_diagnostic_valid_n_adapted": 2182,
+    "mcnemar_p": 0.0,
+    "semantic_complete_cases": 1,
+    "test_concepts": 2199
+  },
+  {
+    "model": "nemotron-bolt-e4b",
+    "name": "Nemotron 3.5 Bolt E4B",
+    "parse_rate_base": 0.13369713506139155,
+    "parseable_base": 294,
+    "perplexity_base": 9.077663134922883,
+    "reference_nll_base": 2.213144806527506,
+    "latency_seconds_base": 2.2606029246859562,
+    "generated_tokens_base": 67.39472487494315,
+    "concept_similarity_base": 0.5589286929685368,
+    "semantic_nonredundancy_base": 0.2268787464254523,
+    "vendi_score_at_5_base": 2.680175100695597,
+    "reference_semantic_alignment_base": 0.5644652821021537,
+    "emoji_reference_overlap_diagnostic_base": 0.2520547945205479,
+    "parse_rate_adapted": 0.9972714870395635,
+    "parseable_adapted": 2193,
+    "perplexity_adapted": 1.9987493916623436,
+    "reference_nll_adapted": 0.6905161913292903,
+    "latency_seconds_adapted": 6.4353295181504455,
+    "generated_tokens_adapted": 105.75807185084129,
+    "concept_similarity_adapted": 0.5747250847212256,
+    "semantic_nonredundancy_adapted": 0.21754429111741994,
+    "vendi_score_at_5_adapted": 2.6099042827135897,
+    "reference_semantic_alignment_adapted": 0.6713597304506661,
+    "emoji_reference_overlap_diagnostic_adapted": 0.38082191780821917,
+    "structural_validity_delta": 0.8635743519781719,
+    "structural_validity_ci95": [
+      0.8485675306957708,
+      0.8781264211005002
+    ],
+    "structural_validity_n": 2199,
+    "reference_nll_delta": -1.5226286151982156,
+    "reference_nll_ci95": [
+      -1.5368077684830825,
+      -1.5081745986664508
+    ],
+    "reference_nll_n": 2199,
+    "latency_seconds_delta": 4.17472659346449,
+    "latency_seconds_ci95": [
+      4.1281117781357155,
+      4.222145213887059
+    ],
+    "latency_seconds_n": 2199,
+    "generated_tokens_delta": 38.36334697589813,
+    "generated_tokens_ci95": [
+      37.58981355161437,
+      39.151466575716235
+    ],
+    "generated_tokens_n": 2199,
+    "concept_similarity_delta": 0.015796391752688852,
+    "concept_similarity_ci95": [
+      0.0016411796824572847,
+      0.030361615560234378
+    ],
+    "concept_similarity_n": 292,
+    "semantic_nonredundancy_delta": -0.009334455308032362,
+    "semantic_nonredundancy_ci95": [
+      -0.02229466177140401,
+      0.003579981678663047
+    ],
+    "semantic_nonredundancy_n": 292,
+    "vendi_score_at_5_delta": -0.07027081798200738,
+    "vendi_score_at_5_ci95": [
+      -0.13617771712374196,
+      -0.006387106890547768
+    ],
+    "vendi_score_at_5_n": 292,
+    "reference_semantic_alignment_delta": 0.10689444834851239,
+    "reference_semantic_alignment_ci95": [
+      0.09632535683475944,
+      0.11744663308387342
+    ],
+    "reference_semantic_alignment_n": 292,
+    "emoji_reference_overlap_diagnostic_delta": 0.1287671232876712,
+    "emoji_reference_overlap_diagnostic_ci95": [
+      0.09794520547945205,
+      0.15958904109589042
+    ],
+    "emoji_reference_overlap_diagnostic_n": 292,
+    "concept_similarity_valid_base": 0.5578565303312273,
+    "concept_similarity_valid_n_base": 294,
+    "concept_similarity_valid_adapted": 0.5400742657102111,
+    "concept_similarity_valid_n_adapted": 2193,
+    "semantic_nonredundancy_valid_base": 0.2273793814032256,
+    "semantic_nonredundancy_valid_n_base": 294,
+    "semantic_nonredundancy_valid_adapted": 0.23693866408066938,
+    "semantic_nonredundancy_valid_n_adapted": 2193,
+    "vendi_score_at_5_valid_base": 2.683697580480251,
+    "vendi_score_at_5_valid_n_base": 294,
+    "vendi_score_at_5_valid_adapted": 2.7260726068425387,
+    "vendi_score_at_5_valid_n_adapted": 2193,
+    "reference_semantic_alignment_valid_base": 0.5637600467014475,
+    "reference_semantic_alignment_valid_n_base": 294,
+    "reference_semantic_alignment_valid_adapted": 0.6460718395391448,
+    "reference_semantic_alignment_valid_n_adapted": 2193,
+    "emoji_reference_overlap_diagnostic_valid_base": 0.25170068027210885,
+    "emoji_reference_overlap_diagnostic_valid_n_base": 294,
+    "emoji_reference_overlap_diagnostic_valid_adapted": 0.36415868673050616,
+    "emoji_reference_overlap_diagnostic_valid_n_adapted": 2193,
+    "mcnemar_p": 0.0,
+    "semantic_complete_cases": 292,
+    "test_concepts": 2199
+  }
+]

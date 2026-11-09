@@ -1,0 +1,354 @@
+{
+  "model": "gemma4-e2b",
+  "model_id": "google/gemma-4-E2B-it",
+  "test_concepts": 2199,
+  "parseable": {
+    "base": 1721,
+    "adapted": 2192
+  },
+  "semantic_complete_cases": 1715,
+  "token_weighted_nll": {
+    "base": 2.4311343337107703,
+    "adapted": 0.7937187507793013
+  },
+  "token_weighted_perplexity": {
+    "base": 11.37177415343585,
+    "adapted": 2.211605562839302
+  },
+  "structural_validity_mcnemar": {
+    "left_only": 6,
+    "right_only": 477,
+    "p_value": 1.3862054991424503e-132
+  },
+  "comparisons": {
+    "structural_validity": {
+      "n_paired": 2199,
+      "base_mean": 0.7826284674852205,
+      "adapted_mean": 0.9968167348794906,
+      "adapted_minus_base": 0.21418826739427013,
+      "ci95_lower": 0.197362437471578,
+      "ci95_upper": 0.23148021828103668,
+      "synset_block_ci95": [
+        0.1943933608782298,
+        0.2343918826271767
+      ],
+      "n_blocks": 1383,
+      "higher_is_better": true
+    },
+    "reference_nll": {
+      "n_paired": 2199,
+      "base_mean": 2.4320838721354696,
+      "adapted_mean": 0.7896124281602428,
+      "adapted_minus_base": -1.6424714439752266,
+      "ci95_lower": -1.657718841840986,
+      "ci95_upper": -1.627184637479413,
+      "synset_block_ci95": [
+        -1.6625188512381595,
+        -1.6226081756451074
+      ],
+      "n_blocks": 1383,
+      "higher_is_better": false
+    },
+    "latency_seconds": {
+      "n_paired": 2199,
+      "base_mean": 1.7976486008749921,
+      "adapted_mean": 4.818053202260529,
+      "adapted_minus_base": 3.0204046013855375,
+      "ci95_lower": 2.976802484657926,
+      "ci95_upper": 3.06592143028159,
+      "synset_block_ci95": [
+        2.967418826353143,
+        3.073185509676495
+      ],
+      "n_blocks": 1383,
+      "higher_is_better": false
+    },
+    "generated_tokens": {
+      "n_paired": 2199,
+      "base_mean": 72.97635288767621,
+      "adapted_mean": 105.84038199181447,
+      "adapted_minus_base": 32.86402910413825,
+      "ci95_lower": 31.670236471123236,
+      "ci95_upper": 34.06732605729877,
+      "synset_block_ci95": [
+        31.425171879776354,
+        34.25068252632161
+      ],
+      "n_blocks": 1383,
+      "higher_is_better": false
+    },
+    "concept_similarity": {
+      "n_paired": 1715,
+      "base_mean": 0.5004753173364234,
+      "adapted_mean": 0.5415719388177721,
+      "adapted_minus_base": 0.04109662148134875,
+      "ci95_lower": 0.03511778463449318,
+      "ci95_upper": 0.04720717403747184,
+      "synset_block_ci95": [
+        0.03190886036121402,
+        0.051548800773110894
+      ],
+      "n_blocks": 1111,
+      "higher_is_better": true
+    },
+    "semantic_nonredundancy": {
+      "n_paired": 1715,
+      "base_mean": 0.1876266549610188,
+      "adapted_mean": 0.20980849156574327,
+      "adapted_minus_base": 0.022181836604724472,
+      "ci95_lower": 0.015401684485006612,
+      "ci95_upper": 0.028805206213200752,
+      "synset_block_ci95": [
+        0.014072357262705048,
+        0.030124783778704103
+      ],
+      "n_blocks": 1111,
+      "higher_is_better": true
+    },
+    "vendi_score_at_5": {
+      "n_paired": 1715,
+      "base_mean": 2.4794296636525814,
+      "adapted_mean": 2.61009119655231,
+      "adapted_minus_base": 0.13066153289972868,
+      "ci95_lower": 0.09523295793780086,
+      "ci95_upper": 0.16585971930197305,
+      "synset_block_ci95": [
+        0.08608560221658003,
+        0.1752774173072626
+      ],
+      "n_blocks": 1111,
+      "higher_is_better": true
+    },
+    "reference_semantic_alignment": {
+      "n_paired": 1715,
+      "base_mean": 0.5197548838554944,
+      "adapted_mean": 0.6289493847692673,
+      "adapted_minus_base": 0.10919450091377292,
+      "ci95_lower": 0.10431216180509191,
+      "ci95_upper": 0.1141355018769513,
+      "synset_block_ci95": [
+        0.10179325959309633,
+        0.11830428599722767
+      ],
+      "n_blocks": 1111,
+      "higher_is_better": true
+    },
+    "emoji_reference_overlap_diagnostic": {
+      "n_paired": 1715,
+      "base_mean": 0.27335276967930033,
+      "adapted_mean": 0.3488046647230321,
+      "adapted_minus_base": 0.07545189504373179,
+      "ci95_lower": 0.06040816326530612,
+      "ci95_upper": 0.09072886297376094,
+      "synset_block_ci95": [
+        0.05636664136807884,
+        0.09452096150361963
+      ],
+      "n_blocks": 1111,
+      "higher_is_better": true
+    }
+  },
+  "encoder_comparisons": {
+    "serafim": {
+      "concept_similarity": {
+        "n_paired": 1715,
+        "base_mean": 0.571965621815826,
+        "adapted_mean": 0.604101294800422,
+        "adapted_minus_base": 0.032135672984595895,
+        "ci95_lower": 0.025296549151268714,
+        "ci95_upper": 0.03912118382339227,
+        "synset_block_ci95": [
+          0.021539625318982257,
+          0.04391094794923903
+        ],
+        "n_blocks": 1111,
+        "higher_is_better": true
+      },
+      "semantic_nonredundancy": {
+        "n_paired": 1715,
+        "base_mean": 0.1920317561042552,
+        "adapted_mean": 0.22423121526011922,
+        "adapted_minus_base": 0.032199459155863995,
+        "ci95_lower": 0.024875951668698305,
+        "ci95_upper": 0.03945338157236402,
+        "synset_block_ci95": [
+          0.023664650700188968,
+          0.04084237401827208
+        ],
+        "n_blocks": 1111,
+        "higher_is_better": true
+      },
+      "vendi_score_at_5": {
+        "n_paired": 1715,
+        "base_mean": 2.523093011983977,
+        "adapted_mean": 2.702103262114455,
+        "adapted_minus_base": 0.17901025013047822,
+        "ci95_lower": 0.14142900430773855,
+        "ci95_upper": 0.21639990036237342,
+        "synset_block_ci95": [
+          0.132933283071406,
+          0.2255009855797008
+        ],
+        "n_blocks": 1111,
+        "higher_is_better": true
+      },
+      "reference_semantic_alignment": {
+        "n_paired": 1715,
+        "base_mean": 0.5258529199803188,
+        "adapted_mean": 0.6200982328493463,
+        "adapted_minus_base": 0.09424531286902747,
+        "ci95_lower": 0.08891153392547595,
+        "ci95_upper": 0.09968133589812166,
+        "synset_block_ci95": [
+          0.08575203676337192,
+          0.10490727280751463
+        ],
+        "n_blocks": 1111,
+        "higher_is_better": true
+      },
+      "emoji_reference_overlap_diagnostic": {
+        "n_paired": 1715,
+        "base_mean": 0.27335276967930033,
+        "adapted_mean": 0.3488046647230321,
+        "adapted_minus_base": 0.07545189504373179,
+        "ci95_lower": 0.06040816326530612,
+        "ci95_upper": 0.09072886297376094,
+        "synset_block_ci95": [
+          0.05636664136807884,
+          0.09452096150361963
+        ],
+        "n_blocks": 1111,
+        "higher_is_better": true
+      }
+    },
+    "labse": {
+      "concept_similarity": {
+        "n_paired": 1715,
+        "base_mean": 0.4289850128570208,
+        "adapted_mean": 0.47904258283512235,
+        "adapted_minus_base": 0.05005756997810161,
+        "ci95_lower": 0.04436573900640793,
+        "ci95_upper": 0.055901551656533606,
+        "synset_block_ci95": [
+          0.041558911338265184,
+          0.05963988829609333
+        ],
+        "n_blocks": 1111,
+        "higher_is_better": true
+      },
+      "semantic_nonredundancy": {
+        "n_paired": 1715,
+        "base_mean": 0.18322155381778238,
+        "adapted_mean": 0.19538576787136733,
+        "adapted_minus_base": 0.012164214053584952,
+        "ci95_lower": 0.005228998188809126,
+        "ci95_upper": 0.018897777764512215,
+        "synset_block_ci95": [
+          0.003878136143071401,
+          0.020338203753375066
+        ],
+        "n_blocks": 1111,
+        "higher_is_better": true
+      },
+      "vendi_score_at_5": {
+        "n_paired": 1715,
+        "base_mean": 2.4357663153211857,
+        "adapted_mean": 2.5180791309901647,
+        "adapted_minus_base": 0.08231281566897912,
+        "ci95_lower": 0.046012944029997116,
+        "ci95_upper": 0.11793849993898985,
+        "synset_block_ci95": [
+          0.03580070908644574,
+          0.1291940971517493
+        ],
+        "n_blocks": 1111,
+        "higher_is_better": true
+      },
+      "reference_semantic_alignment": {
+        "n_paired": 1715,
+        "base_mean": 0.51365684773067,
+        "adapted_mean": 0.6378005366891883,
+        "adapted_minus_base": 0.12414368895851836,
+        "ci95_lower": 0.11923424634724074,
+        "ci95_upper": 0.12914031795136435,
+        "synset_block_ci95": [
+          0.11730122764636747,
+          0.13211678087161555
+        ],
+        "n_blocks": 1111,
+        "higher_is_better": true
+      },
+      "emoji_reference_overlap_diagnostic": {
+        "n_paired": 1715,
+        "base_mean": 0.27335276967930033,
+        "adapted_mean": 0.3488046647230321,
+        "adapted_minus_base": 0.07545189504373179,
+        "ci95_lower": 0.06040816326530612,
+        "ci95_upper": 0.09072886297376094,
+        "synset_block_ci95": [
+          0.05636664136807884,
+          0.09452096150361963
+        ],
+        "n_blocks": 1111,
+        "higher_is_better": true
+      }
+    }
+  },
+  "valid_output_means": {
+    "concept_similarity": {
+      "base": {
+        "mean": 0.5001576309693563,
+        "n": 1721
+      },
+      "adapted": {
+        "mean": 0.5444558960416211,
+        "n": 2192
+      }
+    },
+    "semantic_nonredundancy": {
+      "base": {
+        "mean": 0.18782917959512768,
+        "n": 1721
+      },
+      "adapted": {
+        "mean": 0.2105959422519281,
+        "n": 2192
+      }
+    },
+    "vendi_score_at_5": {
+      "base": {
+        "mean": 2.4804689681578487,
+        "n": 1721
+      },
+      "adapted": {
+        "mean": 2.6112994241399052,
+        "n": 2192
+      }
+    },
+    "reference_semantic_alignment": {
+      "base": {
+        "mean": 0.5195834444427754,
+        "n": 1721
+      },
+      "adapted": {
+        "mean": 0.6294684748056542,
+        "n": 2192
+      }
+    },
+    "emoji_reference_overlap_diagnostic": {
+      "base": {
+        "mean": 0.27239976757699014,
+        "n": 1721
+      },
+      "adapted": {
+        "mean": 0.34051094890510947,
+        "n": 2192
+      }
+    }
+  },
+  "encoders": {
+    "serafim": "PORTULAN/serafim-335m-portuguese-pt-sentence-encoder",
+    "labse": "sentence-transformers/LaBSE"
+  },
+  "note": "Métricas de embedding são diagnósticos offline, não julgamento profissional de CAA."
+}

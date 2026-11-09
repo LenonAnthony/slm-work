@@ -1,0 +1,354 @@
+{
+  "model": "minicpm-v4.7-1b",
+  "model_id": "openbmb/MiniCPM-V-4.7-1B",
+  "test_concepts": 2199,
+  "parseable": {
+    "base": 1,
+    "adapted": 2182
+  },
+  "semantic_complete_cases": 1,
+  "token_weighted_nll": {
+    "base": 2.952366853395818,
+    "adapted": 1.390360716974392
+  },
+  "token_weighted_perplexity": {
+    "base": 19.151228277668547,
+    "adapted": 4.016298538788956
+  },
+  "structural_validity_mcnemar": {
+    "left_only": 0,
+    "right_only": 2181,
+    "p_value": 0.0
+  },
+  "comparisons": {
+    "structural_validity": {
+      "n_paired": 2199,
+      "base_mean": 0.00045475216007276033,
+      "adapted_mean": 0.992269213278763,
+      "adapted_minus_base": 0.9918144611186903,
+      "ci95_lower": 0.9877216916780355,
+      "ci95_upper": 0.9954524783992724,
+      "synset_block_ci95": [
+        0.9821006531609506,
+        0.997727298541985
+      ],
+      "n_blocks": 1383,
+      "higher_is_better": true
+    },
+    "reference_nll": {
+      "n_paired": 2199,
+      "base_mean": 2.960665128349228,
+      "adapted_mean": 1.3818790410637258,
+      "adapted_minus_base": -1.578786087285502,
+      "ci95_lower": -1.5929220190176019,
+      "ci95_upper": -1.5650075079436976,
+      "synset_block_ci95": [
+        -1.599035864372283,
+        -1.5589739035273813
+      ],
+      "n_blocks": 1383,
+      "higher_is_better": false
+    },
+    "latency_seconds": {
+      "n_paired": 2199,
+      "base_mean": 0.8420006344251972,
+      "adapted_mean": 3.3691740325925856,
+      "adapted_minus_base": 2.5271733981673883,
+      "ci95_lower": 2.486410194507753,
+      "ci95_upper": 2.5720301415558797,
+      "synset_block_ci95": [
+        2.4569043629317107,
+        2.6317890646324513
+      ],
+      "n_blocks": 1383,
+      "higher_is_better": false
+    },
+    "generated_tokens": {
+      "n_paired": 2199,
+      "base_mean": 54.4256480218281,
+      "adapted_mean": 113.8681218735789,
+      "adapted_minus_base": 59.4424738517508,
+      "ci95_lower": 57.99406548431105,
+      "ci95_upper": 60.99092769440655,
+      "synset_block_ci95": [
+        56.952722550561724,
+        63.07161624072999
+      ],
+      "n_blocks": 1383,
+      "higher_is_better": false
+    },
+    "concept_similarity": {
+      "n_paired": 1,
+      "base_mean": 0.4792137145996094,
+      "adapted_mean": 0.5362001955509186,
+      "adapted_minus_base": 0.056986480951309204,
+      "ci95_lower": 0.056986480951309204,
+      "ci95_upper": 0.056986480951309204,
+      "synset_block_ci95": [
+        0.056986480951309204,
+        0.056986480951309204
+      ],
+      "n_blocks": 1,
+      "higher_is_better": true
+    },
+    "semantic_nonredundancy": {
+      "n_paired": 1,
+      "base_mean": 0.0,
+      "adapted_mean": 0.34113678336143494,
+      "adapted_minus_base": 0.34113678336143494,
+      "ci95_lower": 0.34113678336143494,
+      "ci95_upper": 0.34113678336143494,
+      "synset_block_ci95": [
+        0.34113678336143494,
+        0.34113678336143494
+      ],
+      "n_blocks": 1,
+      "higher_is_better": true
+    },
+    "vendi_score_at_5": {
+      "n_paired": 1,
+      "base_mean": 1.0,
+      "adapted_mean": 3.403420329093933,
+      "adapted_minus_base": 2.403420329093933,
+      "ci95_lower": 2.403420329093933,
+      "ci95_upper": 2.403420329093933,
+      "synset_block_ci95": [
+        2.403420329093933,
+        2.403420329093933
+      ],
+      "n_blocks": 1,
+      "higher_is_better": true
+    },
+    "reference_semantic_alignment": {
+      "n_paired": 1,
+      "base_mean": 0.26953910291194916,
+      "adapted_mean": 0.452277272939682,
+      "adapted_minus_base": 0.18273817002773285,
+      "ci95_lower": 0.18273817002773285,
+      "ci95_upper": 0.18273817002773285,
+      "synset_block_ci95": [
+        0.18273817002773285,
+        0.18273817002773285
+      ],
+      "n_blocks": 1,
+      "higher_is_better": true
+    },
+    "emoji_reference_overlap_diagnostic": {
+      "n_paired": 1,
+      "base_mean": 0.0,
+      "adapted_mean": 0.0,
+      "adapted_minus_base": 0.0,
+      "ci95_lower": 0.0,
+      "ci95_upper": 0.0,
+      "synset_block_ci95": [
+        0.0,
+        0.0
+      ],
+      "n_blocks": 1,
+      "higher_is_better": true
+    }
+  },
+  "encoder_comparisons": {
+    "serafim": {
+      "concept_similarity": {
+        "n_paired": 1,
+        "base_mean": 0.5200610756874084,
+        "adapted_mean": 0.601881742477417,
+        "adapted_minus_base": 0.08182066679000854,
+        "ci95_lower": 0.08182066679000854,
+        "ci95_upper": 0.08182066679000854,
+        "synset_block_ci95": [
+          0.08182066679000854,
+          0.08182066679000854
+        ],
+        "n_blocks": 1,
+        "higher_is_better": true
+      },
+      "semantic_nonredundancy": {
+        "n_paired": 1,
+        "base_mean": 0.0,
+        "adapted_mean": 0.37105220556259155,
+        "adapted_minus_base": 0.37105220556259155,
+        "ci95_lower": 0.37105220556259155,
+        "ci95_upper": 0.37105220556259155,
+        "synset_block_ci95": [
+          0.37105220556259155,
+          0.37105220556259155
+        ],
+        "n_blocks": 1,
+        "higher_is_better": true
+      },
+      "vendi_score_at_5": {
+        "n_paired": 1,
+        "base_mean": 1.0,
+        "adapted_mean": 3.3979644775390625,
+        "adapted_minus_base": 2.3979644775390625,
+        "ci95_lower": 2.3979644775390625,
+        "ci95_upper": 2.3979644775390625,
+        "synset_block_ci95": [
+          2.3979644775390625,
+          2.3979644775390625
+        ],
+        "n_blocks": 1,
+        "higher_is_better": true
+      },
+      "reference_semantic_alignment": {
+        "n_paired": 1,
+        "base_mean": 0.23646748065948486,
+        "adapted_mean": 0.4275999069213867,
+        "adapted_minus_base": 0.19113242626190186,
+        "ci95_lower": 0.19113242626190186,
+        "ci95_upper": 0.19113242626190186,
+        "synset_block_ci95": [
+          0.19113242626190186,
+          0.19113242626190186
+        ],
+        "n_blocks": 1,
+        "higher_is_better": true
+      },
+      "emoji_reference_overlap_diagnostic": {
+        "n_paired": 1,
+        "base_mean": 0.0,
+        "adapted_mean": 0.0,
+        "adapted_minus_base": 0.0,
+        "ci95_lower": 0.0,
+        "ci95_upper": 0.0,
+        "synset_block_ci95": [
+          0.0,
+          0.0
+        ],
+        "n_blocks": 1,
+        "higher_is_better": true
+      }
+    },
+    "labse": {
+      "concept_similarity": {
+        "n_paired": 1,
+        "base_mean": 0.4383663535118103,
+        "adapted_mean": 0.47051864862442017,
+        "adapted_minus_base": 0.03215229511260986,
+        "ci95_lower": 0.03215229511260986,
+        "ci95_upper": 0.03215229511260986,
+        "synset_block_ci95": [
+          0.03215229511260986,
+          0.03215229511260986
+        ],
+        "n_blocks": 1,
+        "higher_is_better": true
+      },
+      "semantic_nonredundancy": {
+        "n_paired": 1,
+        "base_mean": 0.0,
+        "adapted_mean": 0.3112213611602783,
+        "adapted_minus_base": 0.3112213611602783,
+        "ci95_lower": 0.3112213611602783,
+        "ci95_upper": 0.3112213611602783,
+        "synset_block_ci95": [
+          0.3112213611602783,
+          0.3112213611602783
+        ],
+        "n_blocks": 1,
+        "higher_is_better": true
+      },
+      "vendi_score_at_5": {
+        "n_paired": 1,
+        "base_mean": 1.0,
+        "adapted_mean": 3.4088761806488037,
+        "adapted_minus_base": 2.4088761806488037,
+        "ci95_lower": 2.4088761806488037,
+        "ci95_upper": 2.4088761806488037,
+        "synset_block_ci95": [
+          2.4088761806488037,
+          2.4088761806488037
+        ],
+        "n_blocks": 1,
+        "higher_is_better": true
+      },
+      "reference_semantic_alignment": {
+        "n_paired": 1,
+        "base_mean": 0.30261072516441345,
+        "adapted_mean": 0.4769546389579773,
+        "adapted_minus_base": 0.17434391379356384,
+        "ci95_lower": 0.17434391379356384,
+        "ci95_upper": 0.17434391379356384,
+        "synset_block_ci95": [
+          0.17434391379356384,
+          0.17434391379356384
+        ],
+        "n_blocks": 1,
+        "higher_is_better": true
+      },
+      "emoji_reference_overlap_diagnostic": {
+        "n_paired": 1,
+        "base_mean": 0.0,
+        "adapted_mean": 0.0,
+        "adapted_minus_base": 0.0,
+        "ci95_lower": 0.0,
+        "ci95_upper": 0.0,
+        "synset_block_ci95": [
+          0.0,
+          0.0
+        ],
+        "n_blocks": 1,
+        "higher_is_better": true
+      }
+    }
+  },
+  "valid_output_means": {
+    "concept_similarity": {
+      "base": {
+        "mean": 0.4792137145996094,
+        "n": 1
+      },
+      "adapted": {
+        "mean": 0.5472941102560757,
+        "n": 2182
+      }
+    },
+    "semantic_nonredundancy": {
+      "base": {
+        "mean": 0.0,
+        "n": 1
+      },
+      "adapted": {
+        "mean": 0.09873294761348055,
+        "n": 2182
+      }
+    },
+    "vendi_score_at_5": {
+      "base": {
+        "mean": 1.0,
+        "n": 1
+      },
+      "adapted": {
+        "mean": 2.1111622396737038,
+        "n": 2182
+      }
+    },
+    "reference_semantic_alignment": {
+      "base": {
+        "mean": 0.26953910291194916,
+        "n": 1
+      },
+      "adapted": {
+        "mean": 0.5707046638672282,
+        "n": 2182
+      }
+    },
+    "emoji_reference_overlap_diagnostic": {
+      "base": {
+        "mean": 0.0,
+        "n": 1
+      },
+      "adapted": {
+        "mean": 0.22786434463794683,
+        "n": 2182
+      }
+    }
+  },
+  "encoders": {
+    "serafim": "PORTULAN/serafim-335m-portuguese-pt-sentence-encoder",
+    "labse": "sentence-transformers/LaBSE"
+  },
+  "note": "Métricas de embedding são diagnósticos offline, não julgamento profissional de CAA."
+}

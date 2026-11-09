@@ -1,0 +1,46 @@
+{
+  "condition": "C2-Record",
+  "counts": {
+    "quarantine_by_reason": {
+      "no_attempt": 4
+    },
+    "quarantine_by_split": {
+      "development": 1,
+      "test": 3
+    },
+    "records_by_split": {
+      "development": 2203,
+      "optimization": 6295,
+      "test": 2199
+    },
+    "selected_attempt": {
+      "1": 10655,
+      "2": 42
+    },
+    "test_synset_blocks": 1383
+  },
+  "generator": {
+    "models": [
+      "deepseek-v4-flash"
+    ],
+    "prompt_versions": [
+      "V2"
+    ]
+  },
+  "input_hashes": {
+    "candidates": "00cda11bb49586d0045b567ad27c95062b54afd2c5ae8ff8f6c764cf2ceaa9b1",
+    "concepts": "8acd1a85b38fe4b1fa2f5bfde8b1c5431509e774d1e092b38680914648a40b22",
+    "splits": "723ec3be25a7c741c20b8d4969e4a00455b44b81778822b31ab1dd9efee5b093"
+  },
+  "output_hashes": {
+    "quarantine.jsonl": "759a1a78bd3f83b9f4f4a62483c2824b8dec21f2092162d4d1924c1eb49b398e",
+    "selection.jsonl": "ea53b2385a699c4231419caee254b1ee69044c7aa823bde0868fb593c5d635f7",
+    "test_synset_blocks.json": "114acf9d0daa53aa34efe1cce2a952d9273bb61d361df99452ef50a72b6a3230",
+    "training_examples.jsonl": "67b194bef1517eeae8c08c009550fd1c339b930016c1f6eca4de4f4e1e2acd9a"
+  },
+  "professional_validation": false,
+  "release_eligible": false,
+  "selection_rule": "first attempt without missing metrics, safety failure, duplicate card tuple or parse failure",
+  "split_source": "dataset_offline_silver_v1/split_assignments.json",
+  "version": "slm_work_c2_record_v1"
+}
